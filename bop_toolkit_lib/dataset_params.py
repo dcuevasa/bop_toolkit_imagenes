@@ -96,7 +96,7 @@ def get_model_params(datasets_path, dataset_name, model_type=None):
         "hopev2": list(range(1, 29)),
         "hot3d": list(range(1, 34)),
         "handal": list(range(1, 41)),
-        "ipd": [0, 1, 4, 8, 10, 11, 14, 18, 19, 20],
+        "ipd": [11],
         "xyzibd": [1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
     }[dataset_name]
 
